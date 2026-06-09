@@ -11,7 +11,7 @@ import os
 
 load_dotenv()
 
-st.title("GenAI RAG Chatbot")
+st.title("GenAI RAG Chatbot this chatbaot related to bihar state u acn ask only question about bihar it can giv eyou any diffrent answer Ristricto to topic only")
 
 pc=Pinecone(
     api_key=os.getenv("PINECONE_API_KEY")
