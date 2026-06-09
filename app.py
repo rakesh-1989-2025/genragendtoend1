@@ -11,7 +11,24 @@ import os
 
 load_dotenv()
 
-st.title("GenAI RAG Chatbot this chatbaot related to bihar state u acn ask only question about bihar it can giv eyou any diffrent answer Ristricto to topic only")
+st.title("Bihar GenAI RAG Chatbot
+
+Welcome to the Bihar GenAI RAG Chatbot!
+
+This chatbot is designed to answer questions only about Bihar. You can ask about:
+
+Bihar's history
+Culture and traditions
+Tourist attractions
+Districts and cities
+Education and universities
+Government schemes
+Economy and industries
+Festivals and famous personalities
+Geography and demographics
+Important Note
+
+✅ The chatbot will provide answers only for Bihar-related questions.")
 
 pc=Pinecone(
     api_key=os.getenv("PINECONE_API_KEY")
